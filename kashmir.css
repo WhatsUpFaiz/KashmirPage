@@ -1,0 +1,653 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat','Roboto';   
+}
+header { 
+  padding: 4px 10.3% ;
+}
+.logo {
+    width: 140px; 
+    height: 35px;
+}
+
+.search-bar
+{
+  width: clamp(200px,300px,500px);
+  height: 40px;
+  margin-left: 3px;
+  position: absolute;
+  top: -4px;
+
+}
+.search-icon {
+  position: absolute;
+
+  top: 50%; 
+  transform: translateY(-49%);
+  padding: 27px;
+  font-size: 16px;
+
+  color: #050505ba;
+}
+.search-text{
+  position: absolute;
+  
+  top: 50%; 
+  transform: translateY(-50%);
+  padding: 13px;
+  font-size: 16px;
+
+  color: #050505ba;
+}
+.search-inside{
+  box-shadow:0 1px 8px 0 rgba(0,0,0,.1);
+ 
+padding-left:60px;
+}
+::placeholder{
+
+  font-size: 0.9em;
+  font-weight: 400;
+padding-left: -49px;
+
+}
+
+.flag-text{
+  font-size:14px;
+  font-weight:500;
+}
+.login-text{
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 6px;
+}
+.text-section{
+width: 100%;
+
+}
+
+
+
+.lineborder{
+  border-bottom: 1px solid rgba(107, 107, 107, 0.201);
+  margin-top:-4px;
+  width: 100%;
+}
+
+
+ .kashmir_text2{
+    padding-bottom: 0.5rem;
+border-bottom:1px rgb(173, 119, 19);
+ }
+ .kashmirtxt{
+padding-top: 2%;
+font-weight:500;
+
+
+
+ }
+
+ .kashmirsubtext{
+  
+    font-size: 14px;
+    color: grey;
+    
+   
+         }
+
+
+
+  .search-container input {
+    border-radius: 20px;
+  }
+  
+  .loginbtn{
+    font-size:10px;
+  
+  
+  }
+
+
+  
+  p {
+    font-size: 12px;
+    font-weight:500;
+
+   
+    
+  }
+  
+  
+  @media (min-width: 300px) and (max-width: 576px) {
+  
+ 
+    .logo{
+    
+      margin-left:-44px;
+      scale: 0.80;
+      margin-bottom: 7px;
+   }
+     .btngroups{
+      transform: translate(50px);
+      scale: 0.80;
+     }
+     .lineborder{
+      border-bottom: 1px solid rgba(107, 107, 107, 0.201);
+      margin-top:-11.6px;
+      width: 100%;
+      
+    }
+  
+    .first-group{
+      translate: -30px;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 992px) {
+    .logo{
+    
+    margin-left:-15px;
+ }
+
+ header { 
+  padding: 2px 14.3% ;
+
+}
+ .btngroups{
+
+margin-right: -10px;
+ }
+   
+.loginbtn{
+  font-size: 10px;
+
+
+}
+.carousel-section-1 .myNewSwiper2 .swiper-wrapper .swiper-slide .card img{
+  background: none;
+  border: none;
+  height:18rem !important;
+  width: 18rem !important;
+  }
+      
+
+    
+    
+  }
+
+  
+  /* For Larger Viewports */
+  @media (min-width: 992px) and (max-width:1024px) {
+   
+    .loginbtn{
+        font-size: 14px;
+    }
+    .btn-tours{
+      margin-left:260px;
+    }
+    
+      .modalbtn{
+        font-size: 12px;
+        margin-right:-26px;
+
+    }
+  
+      .logo{
+        margin-left:-47px;
+    }
+    .btngroups{
+
+      margin-right: -55px;
+       }
+      
+}
+@media (min-width: 1024px) and (max-width: 1498px) {
+  .logo{
+    
+    margin-left:-7px;
+ }
+ .btngroups{
+
+margin-right: -25px;
+ }
+
+  .loginbtn{
+      font-size: 14px;
+ 
+  }
+ 
+  .btn-tours{
+    margin-left:260px;
+  }
+  
+    .modalbtn{
+      font-size: 12px;
+      margin-right:-26px;
+
+  }
+  
+}
+
+
+
+  
+
+    .line { 
+      border-left: 1px solid rgba(0, 0, 0, 0.135); 
+
+    }
+  
+
+    .logo-slider {
+      width: 90%;
+      overflow: hidden;
+     
+    }
+    
+    .logo-track {
+      display: flex;
+      justify-content: space-around;
+      animation: slide 20s linear infinite;
+    }
+    
+    .logo-item {
+      min-width:200px; /* Adjust the size of each logo */
+      padding: 0 20px;
+    }
+    
+    .logo-item img {
+      width: 100%;
+      height: auto;
+    }
+    
+    @keyframes slide {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+    
+
+.image-section img {
+  width: 80px;
+  background: #000;
+height: 80px;
+}
+
+@media (min-width:380px) and (max-width:576px)
+ {
+  .carousel-section-1 .text-section{
+display: flex;
+justify-content: space-between;
+  }
+  .carousel-section-1 .card img{
+    background-color: #000;
+    width: 1rem;
+  }
+  .carousel-section-1 .myNewSwiper2 .swiper-wrapper .swiper-slide .card img{
+   
+    height:16rem !important;
+    max-width: 15rem !important;
+
+
+    }
+   
+    .carousel-section-1 .myNewSwiper2 .swiper-wrapper .swiper-slide .card .card-body .card-text{
+    
+    display: flex;
+    flex-wrap: wrap;
+   font-size: 8px;
+    text-wrap: balance;
+     
+      }
+      .Product_price{
+        
+
+   font-size: 12px;
+   display: flex;
+   flex-direction: column;
+    text-wrap: wrap;
+      }
+}
+
+@media (min-width:300px) and (max-width:380px) {
+ 
+  .carousel-section-1 .myNewSwiper2 .swiper-wrapper .swiper-slide .card img{
+   
+    height:17rem !important;
+    max-width: 14rem !important;
+  
+  
+    }
+    .carousel-section-1 .myNewSwiper2 .swiper-wrapper .swiper-slide .card .card-body .card-text{
+      text-wrap:balance;
+    }
+    .carousel-section-1 .myNewSwiper2 .swiper-wrapper .swiper-slide .card .card-body .Product_price {
+      text-wrap:balance;
+      max-width: 12rem;
+    }
+   
+   
+
+}
+
+
+
+
+
+
+.card{
+background: none;
+border: none;
+width: 20rem;
+height: 15rem;
+object-fit: cover;
+position: relative;
+}
+
+
+.card img{
+  background: none;
+  border: none;
+  height: 20rem;
+  width: 19rem;
+  border-radius: 10px;
+  object-fit: cover;
+
+  }
+
+  
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+      .MyNewSwiper2{
+        width: 100%;
+      }
+    
+   
+
+
+.swiper-container{
+  width: 95%;
+}
+
+.lr-btn {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Space between the buttons */
+  flex-shrink: 0; /* Ensures this section doesn't shrink */
+  margin-bottom: 35px;
+}
+
+.lr-btn2 {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  gap: 15px; /* Space between the buttons */
+  flex-shrink: 0; /* Ensures this section doesn't shrink */
+  margin-bottom: 35px;
+}
+
+.PRE{
+  z-index: 999;
+  padding-left:7rem ;
+}
+.PRE, .NEXT {
+  display: flex;
+  align-items: center;
+  
+}
+
+.PRE-BTN, .NEXT-BTN {
+  font-size:0.8rem;
+  color: #333;
+  z-index: 999;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 30px;
+    padding-left: 0.9rem;
+    line-height:2.5rem;
+    background-color:#dededeba;
+    border-radius: 100px; 
+}
+.PRE_BTN2, .NEXT_BTN2 {
+  font-size:1rem;
+  color: #333;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-left: 10rem;
+  padding: 0.8rem;
+  transform: translateY(100px);
+background-color:#dededeba;
+border-radius: 100px; 
+}
+.PRE_BTN3, .NEXT_BTN3 {
+  font-size:1rem;
+  color: #333;
+  width: 2.5rem;
+  height: 2.5rem;
+z-index: 100;
+  padding: 0.8rem;
+background-color:#dededeba;
+border-radius: 100px; 
+margin-bottom: 100px;
+
+}
+.lr-btn3{
+  width: 100%;
+  
+}
+.button-group {
+  display: flex;
+  align-items: center;
+ 
+}
+
+.orange-btn {
+  background-color: #ff6600;
+  color: #fff;
+  border-radius: 5px;
+  padding: 8px 16px;
+}
+
+.white-btn {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 8px 16px;
+}
+
+
+
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.swiper-slide img{
+width: 1.5em;
+
+}
+.swiper-slide .card p {
+  font-size: 12px;
+  text-align: start;
+  
+}
+@media (min-width:300px) and (max-width:767.6px) {
+  .button-group2{
+display: block !important;
+display: flex !important;
+
+width: 100%;
+border: 1px grey;
+  justify-content: space-evenly;
+    border-radius: 8px;
+    
+  }
+  .PRE_BTN2 ,.NEXT_BTN2{
+    font-size:1.5rem;
+    color: #333;
+    width: 3rem;
+    height: 3rem;
+    padding: 0.8rem;
+    margin-left: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    z-index: 99;
+    
+  background-color:#dededeba;
+  border-radius: 100px; 
+  }
+  .lr-btn2 {
+    display: flex;
+    justify-content:space-between;
+
+   
+     /* Space between the buttons */
+   
+  }
+  .PRE_BTN3 ,.NEXT_BTN3{
+    font-size:1.5rem;
+    color: #333;
+    width: 3rem;
+    height: 3rem;
+    padding: 0.8rem;
+    
+    display: flex;
+    justify-content: space-between;
+
+    transform: translateX(0px,1px);
+    z-index: 99;
+    
+  background-color:#dededeba;
+  border-radius: 100px; 
+  }
+  .lr-btn3 {
+    display: flex;
+    justify-content:space-between;
+    height: 13rem;
+    max-height: 14rem;
+     /* Space between the buttons */
+   
+  }
+  
+  .text-section {
+  display: flex;
+  justify-content: space-between;
+  }
+  .orange-btn2 {
+    background-color: #ff6600 !important;
+    color: #fff;
+
+    padding-left:clamp(1em, 30vw, 20rem)!important ;
+
+    padding-right:clamp(1em, 30vw, 2rem)!important ;
+ 
+  }
+  
+  .white-btn2 {
+    background-color: #fff;
+
+
+padding-right:clamp(1em, 50vw, 10rem)!important ;
+
+  }
+  
+ 
+ 
+ 
+}
+
+
+.carousel-section-1 .text-section h5 h6 {
+  z-index: -999 !important;
+ 
+}
+   
+.footer-container{
+  border-radius: 10px;
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  margin: 0 auto;
+  
+}
+.hide{
+  display: none;
+}
+.showprebtn{
+  display: block;
+}
+
+
+
+.group-tour{
+  height: 200px;
+  max-width:95%;
+     border-radius: 10px;
+   background: #fff; 
+     position: relative;
+    overflow: hidden
+  }
+  .accordion-item {
+    border: none; /* Remove border from the accordion item */
+}
+
+.accordion-button {
+    border: none; /* Remove border from the button */
+    box-shadow: none; /* Remove any shadow */
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #f8f9fa; /* Optional: change background color when expanded */
+}
+.section-kashmir{
+width: 20rem;
+height: 20rem;
+}
+@media (min-width:980px) and (max-width:1200px){
+.section-kashmir{
+  width: 15rem;
+}
+}
+
+.section-kashmir-img {
+  flex: 1 1 20rem; /* Allow flex items to grow, shrink, and set a base width */
+  margin: 10px; /* Space between cards */
+  max-width: 90%; /* Four cards per row on large devices */
+  
+ 
+
+}
+
+@media (max-width:576px){
+.pop-cards{
+  display: flex;
+  flex-direction: column;
+  align-items:normal;
+}
+}
+
+.section-kashmir-img:hover {
+
+transform: scale(1.02);  
+transition: all 0.1s ease-in-out;
+}
+
+.other-img{
+ width: 12rem !important;
+ height: 12rem !important;
+
+}

@@ -1,0 +1,1026 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <!-- FONT AWESOME CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- stylesheet css -->
+  <link rel="stylesheet" href="kashmir.css">
+  <!-- js sheet -->
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+
+  <header>
+
+    <div class="d-flex justify-content-between" style="background-color: white;">
+      <nav class="d-flex navbar navbar-expand-lg  flex-grow-1 flex-shrink-1  ">
+
+        <img src="thrillo-logo.png" class="logo" alt="Thrillo Logo">
+
+        <div class="search-container d-none d-md-none d-lg-block collapse navbar-collapse">
+
+          <form class="search-bar d-flex translate-middle-x start-50 position-relative" role="search">
+
+            <input class="search-inside form-control " type="search" placeholder="Search for" aria-label="Search">
+            <div class="search-icon"><i class="fa fa-thin fa-magnifying-glass "></i> </div>
+            <h6 id="search-text"></h6>
+          </form>
+        </div>
+
+        <div class="btngroups d-flex align-items-center">
+          <!-- Currency Dropdown Button -->
+          <button class="btn dropdown-toggle d-flex align-items-center ms-1 mb-1 " data-bs-toggle="dropdown">
+            <img src="/flag.png" alt="Indian Flag" class="flag-icon me-1" style="width: 22px;">
+            <span class="flag-text">INR ₹</span>
+          </button>
+
+          <!-- Login Button -->
+          <button class="btn mb-2">
+            <span class="login-text">Login</span>
+          </button>
+        </div>
+
+      </nav>
+
+    </div>
+  </header>
+
+  <div class="lineborder" style="z-index: 1011 !important;"></div>
+
+
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal Title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!-- Modal content here -->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ 
+    <div class="kashmir_text ms-3">
+    <h3 class="kashmirtxt ">Kashmir</h3>
+
+<div class="kashmir_text2" style="border-bottom: 2px solid orange;width:29%;"></div>
+    <span class="kashmirsubtext">Experiential journeys will make you a storyteller </span>
+
+
+
+    <div class="d-flex align-items-center ">
+
+      <div class="swiper-container py-4">
+        <div class="swiper mySwiper" style="z-index: 999; background: #ffffff;">
+          <div class="swiper-wrapper">
+           
+            <div class="swiper-slide slide0 col-xl-1 col-lg-2 col-md-2 col-sm-1 col-6 d-flex flex-column align-items-center">
+              <img src="/fire.svg" class="img-fluid">
+              <p class="py-2">Staffpicked</p>
+            </div>
+
+            <div class="swiper-slide col-xl-1 col-lg-2 col-md-2 col-sm-1 col-6 d-flex flex-column align-items-center">
+              <img src="/honeymoon.svg" class="img-fluid">
+              <p class="py-2">Honeymoon Special</p>
+            </div>
+
+            <div class="swiper-slide col-xl-1 col-lg-2 col-md-2 col-sm-1 col-6 d-flex flex-column align-items-center">
+              <img src="/best deals.svg" class="img-fluid">
+              <p class="py-2">Best Deals</p>
+            </div>
+
+            <div class="swiper-slide col-xl-1 col-lg-2 col-md-2 col-sm-1 col-6 d-flex flex-column align-items-center">
+              <img src="/north east india.svg" class="img-fluid">
+              <p class="py-2"  style="text-align: center;text-wrap: nowrap;">North East India</p>
+            </div>
+
+            <div class="swiper-slide col-xl-1 col-lg-2 col-md-2 col-sm-1 col-6 d-flex flex-column align-items-center">
+              <img src="/thailand.svg" class="img-fluid">
+              <p class="py-2">Thailand</p>
+            </div>
+
+            <div class="swiper-slide col-xl-1 col-lg-2 col-md-2 col-sm-1 col-6 d-flex flex-column align-items-center">
+              <img src="/kashmir.svg" class="img-fluid">
+              <p class="py-2">Kashmir</p>
+            </div>
+
+            <div class="swiper-slide col-xl-1 col-lg-2 col-md-2 col-sm-1 col-6 d-flex flex-column align-items-center">
+              <img src="/switzerland.svg" class="img-fluid">
+              <p class="py-2">Switzerland</p>
+            </div>
+
+            <div class="swiper-slide col-xl-1 col-lg-2 col-md-2 col-sm-1 col-6 d-flex flex-column align-items-center">
+              <img src="/bhutan.svg" class="img-fluid">
+              <p class="py-2">Bhutan</p>
+            </div>
+
+            <div class="swiper-slide col-xl-1 col-lg-2 col-md-2 col-sm-1 col-6 d-flex flex-column align-items-center">
+              <img src="/japan.svg" class="img-fluid">
+              <p class="py-2"  >Japan</p>
+            </div>
+
+            <div class="swiper-slide col-xl-1 col-lg-2 col-md-2 col-sm-1 col-6 d-flex flex-column align-items-center">
+              <img src="/abu dhabi.svg" class="img-fluid">
+              <p class="py-2"   style="text-align: center;text-wrap: nowrap;">Abu Dhabi</p>
+            </div>
+
+            <div class="swiper-slide col-xl-1 col-lg-2 col-md-2 col-sm-1 col-6 d-flex flex-column align-items-center">
+              <img src="/norway.svg" class="img-fluid">
+              <p class="py-2">Norway</p>
+            </div>
+
+            <div class="swiper-slide col-xl-1 col-lg-2 col-md-2 col-sm-1 col-6 d-flex flex-column align-items-center">
+              <img src="/bali.svg" class="img-fluid">
+              <p class="py-2">Bali</p>
+            </div>
+
+            <div class="swiper-slide col-xl-1 col-lg-2 col-md-2 col-sm-1 col-6 d-flex flex-column align-items-center">
+              <img src="/ladakh.svg" class="img-fluid">
+              <p class="py-2">Ladakh</p>
+            </div>
+
+            <div class="swiper-slide col-xl-1 col-lg-2 col-md-2 col-sm-1 col-6 d-flex flex-column align-items-center">
+              <img src="/south africa.svg" class="img-fluid">
+              <p class="py-2" style="text-align: center;text-wrap: nowrap;">South Africa</p>
+            </div>
+
+            <div class="swiper-slide col-xl-1 col-lg-2 col-md-2 col-sm-1 col-6 d-flex flex-column align-items-center">
+              <img src="/spiti valley.svg" class="img-fluid">
+              <p class="py-2" style="text-align: center;text-wrap: nowrap;">Spiti Valley</p>
+            </div>
+
+            <div class="swiper-slide col-xl-1 col-lg-2 col-md-2 col-sm-1 col-6 d-flex flex-column align-items-center">
+              <img src="/turkey.svg" class="img-fluid">
+              <p class="py-2">Turkey</p>
+            </div>
+
+            <div class="swiper-slide col-xl-1 col-lg-2 col-md-2 col-sm-1 col-6 d-flex flex-column align-items-center">
+              <img src="/usa.svg" class="img-fluid">
+              <p class="py-2">USA</p>
+            </div>
+
+            <div class="swiper-slide col-xl-1 col-lg-2 col-md-2 col-sm-1 col-6 d-flex flex-column align-items-center">
+              <img src="/kenya.svg" class="img-fluid">
+              <p class="py-2">Kenya</p>
+            </div>
+
+            <div class="swiper-slide col-xl-1 col-lg-2 col-md-2 col-sm-1 col-6 d-flex flex-column align-items-center">
+              <img src="/sydney.svg" class="img-fluid">
+              <p class="py-2">Sydney</p>
+            </div>
+
+            <div class="swiper-slide col-xl-1 col-lg-2 col-md-2 col-sm-1 col-6 d-flex flex-column align-items-center">
+              <img src="/iceland.svg" class="img-fluid">
+              <p class="py-2">Iceland</p>
+            </div>
+
+            <div class="swiper-slide col-xl-1 col-lg-2 col-md-2 col-sm-1 col-6 d-flex flex-column align-items-center">
+              <img src="/greece.svg" class="img-fluid">
+              <p class="py-2">Greece</p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    
+     
+      <div class="lr-btn d-flex align-items-center justify-content-around">
+       
+        <div class="PRE position-absolute start-0 translate-middle-x ms-1 ">
+          <i class="PRE-BTN fa fa-light fa-chevron-left"></i>
+        </div>
+       
+        <div class="NEXT d-flex position-absolute"  >
+        <i class="NEXT-BTN fa fa-light fa-chevron-right"></i>
+        </div>
+      </div>
+      
+  </div>    
+ 
+
+<section class="first-cards ms-4">
+  <div class="kashmir_text py-3">
+    <h3 class="kashmirtxt">staff handpicked</h3>
+    <span class="kashmirsubtext">Curated with expertise</span>
+
+  <div class="first-group row container mx-auto my-3 row-cols-1 row-cols-xl-3  row-cols-md-2 g-4">
+    <div class="col d-flex justify-content-center">
+      <div class="card h-100">
+        <img src="/9asqf953djjbryncpv7gtw584vyr_japan-handpicked.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <div class="d-flex justify-content-between ">
+            <p class="card-title">5 days & 4 Night</p>
+            <p><i class="fa solid fa-star ms-3"></i>4.9 (1.6K)</p>
+          </div>
+
+          <h6 class="card-text" style="font-size: 15px;margin-bottom: auto;">Dubai Highlights
+            | skyline and sandscapes </h6>
+          <div class="d-flex Product_price_btns flex-column">
+            <p class="mb-auto fw-bold">
+              <a href="">5D</a>
+              <span class="d-align-items-center mb-auto w-100">
+                <a href="">Dubai</a>
+              </span>
+            </p>
+
+
+
+            <div class="Product_price ">
+              <span class="">INR</span>
+              <span>45,000</span>
+              <strike>INR 74002</strike>
+              <span style="font-size: 10px;">SAVE INR 29,002</span>
+              <div><i class="fa-solid fa-phone border border-warning p-3 rounded-2 "
+                  style="color: #ffa200;"></i>
+                <a href="#" class="btn btn-warning text-light">avail this offer</a>
+              </div>
+
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="col  d-flex justify-content-center">
+      <div class="card h-100">
+        <img src="/62w8qloqmrq66qdwp8x0rmnzjq8e_yak.png" class="card-img-top" alt="...">
+          <div class="card-body">
+                    <div class="d-flex justify-content-between ">
+                      <p class="card-title">5 days & 4 Night</p>
+                      <p><i class="fa solid fa-star ms-3"></i>4.9 (1.6K)</p>
+                    </div>
+
+                    <h6 class="card-text" style="font-size: 15px;margin-bottom: auto;">Dubai Highlights
+                      | skyline and sandscapes </h6>
+                    <div class="d-flex Product_price_btns flex-column">
+                      <p class="mb-auto fw-bold">
+                        <a href="">5D</a>
+                        <span class="d-align-items-center mb-auto w-100">
+                          <a href="">Dubai</a>
+                        </span>
+                      </p>
+
+
+
+                      <div class="Product_price ">
+                        <span class="">INR</span>
+                        <span>45,000</span>
+                        <strike>INR 74002</strike>
+                        <span style="font-size: 10px;">SAVE INR 29,002</span>
+                        <div><i class="fa-solid fa-phone border border-warning p-3 rounded-2 "
+                            style="color: #ffa200;"></i>
+                          <a href="#" class="btn btn-warning text-light">avail this offer</a>
+                        </div>
+
+
+                      </div>
+                    </div>
+
+                  </div>
+      
+      </div>
+    </div>
+    <div class="col d-flex justify-content-center ">
+      <div class="card h-100">
+        <img src="/frke8dj951kpjiqq55kqw66av09o_578301957-7-days-turkish-romance.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <div class="d-flex justify-content-between ">
+            <p class="card-title">5 days & 4 Night</p>
+            <p><i class="fa solid fa-star ms-3"></i>4.9 (1.6K)</p>
+          </div>
+
+          <h6 class="card-text" style="font-size: 15px;margin-bottom: auto;">Dubai Highlights
+            | skyline and sandscapes </h6>
+          <div class="d-flex Product_price_btns flex-column">
+            <p class="mb-auto fw-bold">
+              <a href="">5D</a>
+              <span class="d-align-items-center mb-auto w-100">
+                <a href="">Dubai</a>
+              </span>
+            </p>
+
+
+
+            <div class="Product_price ">
+              <span class="">INR</span>
+              <span>45,000</span>
+              <strike>INR 74002</strike>
+              <span style="font-size: 10px;">SAVE INR 29,002</span>
+              <div><i class="fa-solid fa-phone border border-warning p-3 rounded-2 "
+                  style="color: #ffa200;"></i>
+                <a href="#" class="btn btn-warning text-light">avail this offer</a>
+              </div>
+
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="about-kashmir mt-5">
+    <h3>About Kashmir</h3>
+    <p>Experience the paradise that is Kashmir, where the majestic Chinar trees, the enchanting sounds of the Santoor, and the awe-inspiring to create unparalleled beauty. </p>
+  </div>
+
+
+  <div class="group-tour mt-5 d-flex justify-content-center flex-column text-center">
+    <div class="img-group position-absolute">
+    <img src="/group_tour_desktop_banner_image.avif" alt="">
+  </div>
+<h4 class="position-relative mx-auto mt-5 text-light">Bigger Group? Get special offers up to 50% Off!</h4>
+
+<p class="position-relative mx-auto text-light">We create unforgettable adventures, customised for your group</p>
+
+<h6><button type="button" class="btn btn-light text-warning position-relative ">Get a Callback</button></h6>
+
+  </div>
+</section>
+  <hr>
+ 
+<section class="honeymoon">
+  <div class="kashmir_text py-5 ">
+    <h3 class="kashmirtxt">Honeymoon special</h3>
+    <span>Tailor-Made Honeymoons Just for You </span>
+
+  <div class="row container my-4 row-cols-1 row-cols-xl-3 d-flex row-cols-md-2 mx-auto">
+    <div class="col">
+      <div class="card h-100">
+        <img src="/9asqf953djjbryncpv7gtw584vyr_japan-handpicked.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <div class="d-flex justify-content-between ">
+            <p class="card-title">5 days & 4 Night</p>
+            <p><i class="fa solid fa-star ms-3"></i>4.9 (1.6K)</p>
+          </div>
+
+          <h6 class="card-text" style="font-size: 15px;margin-bottom: auto;">Dubai Highlights
+            | skyline and sandscapes </h6>
+          <div class="d-flex Product_price_btns flex-column">
+            <p class="mb-auto fw-bold">
+              <a href="">5D</a>
+              <span class="d-align-items-center mb-auto w-100">
+                <a href="">Dubai</a>
+              </span>
+            </p>
+
+
+
+            <div class="Product_price ">
+              <span class="">INR</span>
+              <span>45,000</span>
+              <strike>INR 74002</strike>
+              <span style="font-size: 10px;">SAVE INR 29,002</span>
+              <div><i class="fa-solid fa-phone border border-warning p-3 rounded-2 "
+                  style="color: #ffa200;"></i>
+                <a href="#" class="btn btn-warning text-light">avail this offer</a>
+              </div>
+
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="/62w8qloqmrq66qdwp8x0rmnzjq8e_yak.png" class="card-img-top" alt="...">
+          <div class="card-body">
+                    <div class="d-flex justify-content-between ">
+                      <p class="card-title">5 days & 4 Night</p>
+                      <p><i class="fa solid fa-star ms-3"></i>4.9 (1.6K)</p>
+                    </div>
+
+                    <h6 class="card-text" style="font-size: 15px;margin-bottom: auto;">Dubai Highlights
+                      | skyline and sandscapes </h6>
+                    <div class="d-flex Product_price_btns flex-column">
+                      <p class="mb-auto fw-bold">
+                        <a href="">5D</a>
+                        <span class="d-align-items-center mb-auto w-100">
+                          <a href="">Dubai</a>
+                        </span>
+                      </p>
+
+
+
+                      <div class="Product_price ">
+                        <span class="">INR</span>
+                        <span>45,000</span>
+                        <strike>INR 74002</strike>
+                        <span style="font-size: 10px;">SAVE INR 29,002</span>
+                        <div><i class="fa-solid fa-phone border border-warning p-3 rounded-2 "
+                            style="color: #ffa200;"></i>
+                          <a href="#" class="btn btn-warning text-light">avail this offer</a>
+                        </div>
+
+
+                      </div>
+                    </div>
+
+                  </div>
+      
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="/frke8dj951kpjiqq55kqw66av09o_578301957-7-days-turkish-romance.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <div class="d-flex justify-content-between ">
+            <p class="card-title">5 days & 4 Night</p>
+            <p><i class="fa solid fa-star ms-3"></i>4.9 (1.6K)</p>
+          </div>
+
+          <h6 class="card-text" style="font-size: 15px;margin-bottom: auto;">Dubai Highlights
+            | skyline and sandscapes </h6>
+          <div class="d-flex Product_price_btns flex-column">
+            <p class="mb-auto fw-bold">
+              <a href="">5D</a>
+              <span class="d-align-items-center mb-auto w-100">
+                <a href="">Dubai</a>
+              </span>
+            </p>
+
+
+
+            <div class="Product_price ">
+              <span class="">INR</span>
+              <span>45,000</span>
+              <strike>INR 74002</strike>
+              <span style="font-size: 10px;">SAVE INR 29,002</span>
+              <div><i class="fa-solid fa-phone border border-warning p-3 rounded-2 "
+                  style="color: #ffa200;"></i>
+                <a href="#" class="btn btn-warning text-light">avail this offer</a>
+              </div>
+
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+<hr>
+</section>
+<section class="honeymoon">
+  <div class="kashmir_text py-5 ">
+    <h3 class="kashmirtxt">Best Deals</h3>
+    
+
+  <div class="row container my-4 row-cols-1 row-cols-xl-3 d-flex row-cols-md-2 mx-auto">
+    <div class="col">
+      <div class="card h-100">
+        <img src="/9asqf953djjbryncpv7gtw584vyr_japan-handpicked.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <div class="d-flex justify-content-between ">
+            <p class="card-title">5 days & 4 Night</p>
+            <p><i class="fa solid fa-star ms-3"></i>4.9 (1.6K)</p>
+          </div>
+
+          <h6 class="card-text" style="font-size: 15px;margin-bottom: auto;">Dubai Highlights
+            | skyline and sandscapes </h6>
+          <div class="d-flex Product_price_btns flex-column">
+            <p class="mb-auto fw-bold">
+              <a href="">5D</a>
+              <span class="d-align-items-center mb-auto w-100">
+                <a href="">Dubai</a>
+              </span>
+            </p>
+
+
+
+            <div class="Product_price ">
+              <span class="">INR</span>
+              <span>45,000</span>
+              <strike>INR 74002</strike>
+              <span style="font-size: 10px;">SAVE INR 29,002</span>
+              <div><i class="fa-solid fa-phone border border-warning p-3 rounded-2 "
+                  style="color: #ffa200;"></i>
+                <a href="#" class="btn btn-warning text-light">avail this offer</a>
+              </div>
+
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="/62w8qloqmrq66qdwp8x0rmnzjq8e_yak.png" class="card-img-top" alt="...">
+          <div class="card-body">
+                    <div class="d-flex justify-content-between ">
+                      <p class="card-title">5 days & 4 Night</p>
+                      <p><i class="fa solid fa-star ms-3"></i>4.9 (1.6K)</p>
+                    </div>
+
+                    <h6 class="card-text" style="font-size: 15px;margin-bottom: auto;">Dubai Highlights
+                      | skyline and sandscapes </h6>
+                    <div class="d-flex Product_price_btns flex-column">
+                      <p class="mb-auto fw-bold">
+                        <a href="">5D</a>
+                        <span class="d-align-items-center mb-auto w-100">
+                          <a href="">Dubai</a>
+                        </span>
+                      </p>
+
+
+
+                      <div class="Product_price ">
+                        <span class="">INR</span>
+                        <span>45,000</span>
+                        <strike>INR 74002</strike>
+                        <span style="font-size: 10px;">SAVE INR 29,002</span>
+                        <div><i class="fa-solid fa-phone border border-warning p-3 rounded-2 "
+                            style="color: #ffa200;"></i>
+                          <a href="#" class="btn btn-warning text-light">avail this offer</a>
+                        </div>
+
+
+                      </div>
+                    </div>
+
+                  </div>
+      
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="/frke8dj951kpjiqq55kqw66av09o_578301957-7-days-turkish-romance.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <div class="d-flex justify-content-between ">
+            <p class="card-title">5 days & 4 Night</p>
+            <p><i class="fa solid fa-star ms-3"></i>4.9 (1.6K)</p>
+          </div>
+
+          <h6 class="card-text" style="font-size: 15px;margin-bottom: auto;">Dubai Highlights
+            | skyline and sandscapes </h6>
+          <div class="d-flex Product_price_btns flex-column">
+            <p class="mb-auto fw-bold">
+              <a href="">5D</a>
+              <span class="d-align-items-center mb-auto w-100">
+                <a href="">Dubai</a>
+              </span>
+            </p>
+
+
+
+            <div class="Product_price ">
+              <span class="">INR</span>
+              <span>45,000</span>
+              <strike>INR 74002</strike>
+              <span style="font-size: 10px;">SAVE INR 29,002</span>
+              <div><i class="fa-solid fa-phone border border-warning p-3 rounded-2 "
+                  style="color: #ffa200;"></i>
+                <a href="#" class="btn btn-warning text-light">avail this offer</a>
+              </div>
+
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+<hr>
+</section>
+<section class="honeymoon">
+  <div class="kashmir_text py-5 ">
+    <h3 class="kashmirtxt">Best Deals</h3>
+    
+
+  <div class="row container my-4 row-cols-1 row-cols-xl-3 d-flex row-cols-md-2 mx-auto">
+    <div class="col">
+      <div class="card h-100">
+        <img src="/9asqf953djjbryncpv7gtw584vyr_japan-handpicked.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <div class="d-flex justify-content-between ">
+            <p class="card-title">5 days & 4 Night</p>
+            <p><i class="fa solid fa-star ms-3"></i>4.9 (1.6K)</p>
+          </div>
+
+          <h6 class="card-text" style="font-size: 15px;margin-bottom: auto;">Dubai Highlights
+            | skyline and sandscapes </h6>
+          <div class="d-flex Product_price_btns flex-column">
+            <p class="mb-auto fw-bold">
+              <a href="">5D</a>
+              <span class="d-align-items-center mb-auto w-100">
+                <a href="">Dubai</a>
+              </span>
+            </p>
+
+
+
+            <div class="Product_price ">
+              <span class="">INR</span>
+              <span>45,000</span>
+              <strike>INR 74002</strike>
+              <span style="font-size: 10px;">SAVE INR 29,002</span>
+              <div><i class="fa-solid fa-phone border border-warning p-3 rounded-2 "
+                  style="color: #ffa200;"></i>
+                <a href="#" class="btn btn-warning text-light">avail this offer</a>
+              </div>
+
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="/62w8qloqmrq66qdwp8x0rmnzjq8e_yak.png" class="card-img-top" alt="...">
+          <div class="card-body">
+                    <div class="d-flex justify-content-between ">
+                      <p class="card-title">5 days & 4 Night</p>
+                      <p><i class="fa solid fa-star ms-3"></i>4.9 (1.6K)</p>
+                    </div>
+
+                    <h6 class="card-text" style="font-size: 15px;margin-bottom: auto;">Dubai Highlights
+                      | skyline and sandscapes </h6>
+                    <div class="d-flex Product_price_btns flex-column">
+                      <p class="mb-auto fw-bold">
+                        <a href="">5D</a>
+                        <span class="d-align-items-center mb-auto w-100">
+                          <a href="">Dubai</a>
+                        </span>
+                      </p>
+
+
+
+                      <div class="Product_price ">
+                        <span class="">INR</span>
+                        <span>45,000</span>
+                        <strike>INR 74002</strike>
+                        <span style="font-size: 10px;">SAVE INR 29,002</span>
+                        <div><i class="fa-solid fa-phone border border-warning p-3 rounded-2 "
+                            style="color: #ffa200;"></i>
+                          <a href="#" class="btn btn-warning text-light">avail this offer</a>
+                        </div>
+
+
+                      </div>
+                    </div>
+
+                  </div>
+      
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="/frke8dj951kpjiqq55kqw66av09o_578301957-7-days-turkish-romance.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <div class="d-flex justify-content-between ">
+            <p class="card-title">5 days & 4 Night</p>
+            <p><i class="fa solid fa-star ms-3"></i>4.9 (1.6K)</p>
+          </div>
+
+          <h6 class="card-text" style="font-size: 15px;margin-bottom: auto;">Dubai Highlights
+            | skyline and sandscapes </h6>
+          <div class="d-flex Product_price_btns flex-column">
+            <p class="mb-auto fw-bold">
+              <a href="">5D</a>
+              <span class="d-align-items-center mb-auto w-100">
+                <a href="">Dubai</a>
+              </span>
+            </p>
+
+
+
+            <div class="Product_price ">
+              <span class="">INR</span>
+              <span>45,000</span>
+              <strike>INR 74002</strike>
+              <span style="font-size: 10px;">SAVE INR 29,002</span>
+              <div><i class="fa-solid fa-phone border border-warning p-3 rounded-2 "
+                  style="color: #ffa200;"></i>
+                <a href="#" class="btn btn-warning text-light">avail this offer</a>
+              </div>
+
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+<hr>
+</section>
+
+
+  
+
+  <section class="faq-section mt-5">
+<div>
+<h3>KASHMIR'S FAQ's</h3>
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        What are the places to visit in Kashmir?
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>1. Srinagar</strong><br>
+      <small>The summer capital of J&K is Srinagar and is located on the Jhelum River’s banks with mesmerizing deep valleys. It is cascaded in evergreen beauty and the mighty mountains. This is a picturesque location and appears as if a painting has come to life right before your eyes.
+          
+        It is well known for its colorful shikaras and stationary houseboats on the Dal Lake that promote Kashmir tourism like no other. Tourists use these gondola-type rowboats to visit attractions like the Floating Market of vegetables, and a vibrant community of people called Mir Bahris. 
+        Top draws- Shalimar Bagh, Nishat Bagh, Mughal Gardens, and Chashme Shahi Garden.
+        Best time to visit: April to October</small><br>
+      <strong>2. Vaishno Devi</strong><br>
+        Vaishno Devi is one of the most religious trekking destinations. It is thirteen kilometers away from Kutra and is located in the Trikuta hills. The renowned shrine attracts hundreds and thousands of devotees from every nook and cranny of the world. It takes nine to six hours to reach the shrine depending on the pace, and weather. However, you can make the best use of ponies, palanquins, and helicopter services available.  
+        
+        Top draws- Katra, Bhairavnath Temple, and Cave of Ardh Kuwari,
+        Best time to visit: 365 days of the year <br>
+<strong>3. Gulmarg </strong><br>
+  Gulmarg is a renowned honeymoon location besides being one of the popular destinations for skiing in Kashmir. Deep ravines, evergreen valleys with forests, loft snow-covered Himalayas, and fields of flowers surround Gulmarg. You can ride a Gondola here while indulging in treks, and snowboarding.
+  
+  Top draws- Khilanmarg, Ningi Nalla, Maharani Temple, and Alpather Lake
+  Best time to visit: October to June <br>
+
+
+  <strong>4. Patnitop </strong><br>
+    With panoramic and endless views of the Himalayan peaks, Patnitop is one of the perfect places to visit in Jammu & Kashmir as you get to witness nature’s beauty at its wildest and picturesque best. It offers some of the grandest and most splendid landscapes making your travel experience an enjoyable one. 
+    
+    Top draws- Kud Park, Billoo Ki Powri, Naag Mandir, and Nathatop
+    Best time to visit: All through the year <br>
+    
+   <strong>5. Sonamarg  </strong> <br>
+    The name Sonamarg translating to “the meadow of gold”, originated as the blooming yellow crocus flowers covering up the valley during spring,  largely impressed the locals here. This town is a picturesque and small one with orchards of walnut that you can freshly pick from the ones drying or pluck the greener ones hanging down the branches. 
+    
+    When in Sonamarg, you can engage in river rafting on the white river of Indus, go trekking on the Kolhoi, Sirbal, Amarnath, and Machoi peaks. If you planned for a summer trip then you can rent ponies to the Thajiwas glacier for satisfactory trekking and camping, or set forth for a visit to the the highly revered Nilagrad river known for its phenomenal healing powers. 
+    
+    Top draws: Thajiwas glacier, Vishansar Lake, Nilagrad River, and Zoji-La Pass
+    Best time to visit: May to October <br>
+    
+    <strong> 6. Pahalgam </strong><br>
+    Pahalgam is sure to appeal to your senses, and eyes with its gorgeous, and untouched natural beauty. Most travelers that frequenting here have admitted that nothing compares to a relaxing saunter in the tranquil meadows of Baisaran hills. So when in Pahalgam, you can head to The Lidder Park for a venturesome break, opt for a ride on the pony at The Tulian Lake, set forth to The Betaab Valley to try zip-lining or for the Bollywood feels. 
+    
+    Top draws- Lidder River, Betaab Valley, Aru Valley, Mamleshwar Temple, Chandanwari, and Kolahoi Glacier
+    Best time to visit: All through the year <br>
+    
+    <strong>7. Nubra Valley</strong> <br>
+    Nubra valley has the backdrop of arid mountains and has the Nubra and Shyok rivers snaking through the valley. You can go visit the largest, and oldest monastery, Diksit Gompa, or enjoy the enchanting views of the Panamik Village that is located on the banks of river Nubra. As for deriving a pleasurable experience, there is nothing that beats getting drawn to a ride on the Bactrian camels amid stunning sand dunes. 
+    
+    Top draws- Panamik Village, Yarab Tso in Sumur, Diskit Monastery, Maitreya Buddha, and Samstanling Monastery
+    Best time to visit: June to September <br>
+    </div>
+    </div>
+
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        What can I buy in Kashmir?
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <span> The stoles and Pashmina shawls have made a place in every shopper’s heart. But there are so many other things that you can come back for. While there are carvings made from walnut wood, red alluring Kashmiri Chillies, and knick-knacks, you can fill your shopping cart with so much more. Here is a list of atypical items that are worth your moolah. </span> <br>
+
+        1. Namda and rugs <br>
+        When you are in Kashmir, you will definitely buy the hand-woven carpets called Namda but do purchase the beautiful rugs, and wall hangings with crewel-work all over.
+        
+        2. Local bakery goodies <br>
+        You must stop by a Kandur Wan to buy some delicious Kulchas, Girdas, and Lavasa.  <br>
+        
+        3. Jewelry <br>
+        If you do not mind splurging then go for jewelry that is encrusted with “Doda Sapphire”.  <br>
+        
+        4. Cooking Ingredients  <br>
+        Kashmir is known for its spices and thus besides the Red Kashmiri Chillies, you must buy some Saffron. <br>
+        
+        5. Willow goods  <br>
+        Take back with you some of the willow bats and baskets that the valley is known for. <br> 
+        
+        6. Other miscellaneous items  <br>
+        There are many things that the valley produces and some of them deserve a purchase include, shahtoosh shawl, samovars (antique copper utensils), chai soda, vintage maps, Ferin, and ornaments made of Kashmiri Lac. <br>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Why Kashmir is so famous?
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+
+
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+        Which are the best places to visit in Jammu Kashmir for couplers?
+      </button>
+    </h2>
+    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+        What is famous in Jammu Kashmir?
+      </button>
+    </h2>
+    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+        What is the best time to visit Jammu and kashmir?
+      </button>
+    </h2>
+    <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+
+
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+        What can I buy in Jammu?
+      </button>
+    </h2>
+    <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+
+ 
+  </div>
+</div>
+</div>
+  </section>
+
+
+ 
+  <section class="kashmir-attraction mt-5 d-flex justify-content-center">
+<div >
+  <h3 class="d-flex justify-content-center mx-5" style="text-wrap:nowrap;">KASHMIR ATTRACTION</h3>
+
+  <div class=" pop-cards ms-3 row row-cols-1 row-cols-md-2">
+    <div class="col-3 col-sm-6 col-lg-3 col-md-6 ">
+      <div class="card section-kashmir">
+        <img src="/0j4627tseb5mkushfg66vhc593h4_pexels-tauseef-khaliq-12750077.jpg"  class="section-kashmir-img" alt="...">
+        <div class="card-body position-absolute top-50 text-light">
+          <h5 class="card-title">DAL LAKE</h5>
+          <p class="card-text">Known to be “The Jewel of Srinagar”, Dal Lake spreads across an area of around 26 square kilometers and is one of the major attractions</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-3 col-sm-6 col-lg-3 col-md-6 ">
+      <div class="card section-kashmir ">
+        <img src="/o21ec6zokpwhukcw6fu979xzjfb7_shutterstock_2147695487.jpg"  class="section-kashmir-img" alt="...">
+        <div class="card-body position-absolute top-50 text-light">
+          <h5 class="card-title ">SHANKARACHARYA TEMPLE</h5>
+          <p class="card-text">Visit the Shankaracharya Temple, a special place in Srinagar that sits high on a hill.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-3 col-sm-6 col-lg-3 col-md-6">
+      <div class="card section-kashmir">
+        <img src="/340e2q4kd0uy6qmsji86igrxtxut_shutterstock_1035298507.jpg" class="section-kashmir-img" alt="...">
+        <div class="card-body position-absolute top-50 text-light ">
+          <h5 class="card-title">GULMARG GONDOLA</h5>
+          <p class="card-text">Gulmarg Gondola is the second highest and second longest cable car ride in the world.  </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-3 col-sm-6 col-lg-3 col-md-6">
+      <div class="card section-kashmir">
+      <img src="/2ldxjpwvzo400na6j8m8k13q5csx_Siliguri-Darjeeling-3.png"  class="section-kashmir-img"  alt="...">
+        <div class="card-body position-absolute top-50 text-light">
+          <h5 class="card-title">MEMORIAL TULIP GARDEN
+          
+            </h5>
+          <p class="card-text">the Indira Gandhi Memorial Tulip Garden was built with the aim of improving floriculture as well as tourism in Kashmir. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+  </section>
+
+
+
+
+
+
+
+
+
+      
+  <footer class="py-5 mt-5 text-light" style="background: #2f343c; border-radius: 10px;">
+    <div class="footer-container d-lg-flex" style="width: 73%;background: #ffffff;">
+      <div class="col-xl-3 col-lg-3 col-sm-12 text-center d-column text-dark">
+        <h6>ABOUT THRIILLOPHILLA</h6>
+        <p><a href=""></a>about us</p>
+        <p><a href=""></a>we are hiring</p>
+        <p><a href=""></a>thrilliophillia reviews</p>
+        <p><a href=""></a>Terms & Conditions</p>
+        <p><a href=""></a>privacy Policies</p>
+        <p><a href=""></a>Copyright Policies</p>
+        <p><a href=""></a>Support </p>
+        <p><a href=""></a>Beware of Frauds</p>
+      </div>
+
+      <div class="col-xl-3 col-lg-3 col-sm-12 text-center d-column text-dark">
+        <h6>FOR SUPPLIERS</h6>
+        <p><a href=""></a>List your activity</p>
+        <h6>FOR BRANDS</h6>
+        <p>partner with us</p>
+        <p>destination marketing</p>
+        <h6>FOR TRAVEL AGENTS</h6>
+        <p>sign up as a agents</p>
+        <p>agent login</p>
+      </div>
+      <div class="col-xl-3 col-lg-3 col-sm-12 text-center d-column text-dark">
+        <h6>FOR TRAVELLERS</h6>
+        <p><a href=""></a>Gift An Exprience</p>
+      </div>
+
+      <div class="col-xl-3 col-lg-3 col-sm-12 d-column text-center text-dark">
+        <h6>TRAVEL DESTINATIONS</h6>
+
+        <div class="image-section ">
+          <a href=""></a><img src="/andaman.png">
+          <a href=""></a><img src="/bali (1).png">
+          <a href=""></a><img src="/hongkong (1).png">
+          <a href=""></a><img src="/ladakh (1).png">
+          <a href=""></a><img src="/india (1).png">
+          <a href=""></a><img src="/dubai (1).png">
+          <a href=""></a><img src="/srilanka.png">
+          <a href=""></a><img src="/thailand.png">
+          <a href=""></a><img src="/singapore.png">
+        </div>
+      </div> 
+    </div>
+    </div>
+
+
+
+
+
+
+  </footer>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="web2.js"></script>
+</body>
